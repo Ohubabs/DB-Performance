@@ -1,0 +1,16 @@
+pipeline{
+    agent { 
+        label 'terraform'
+  }
+    stages{
+        stage('Destroy Prometheus and Grafana Websites for APM'){
+            steps{
+              withCredentials([aws(accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_cred', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY')]) {
+                sh "echo 'Destroy Prometheus and Grafana Websites for APM'"
+                sh "terraform init"
+                sh "terraform destroy --auto-approve"
+                }
+            }
+        }
+    }
+}
