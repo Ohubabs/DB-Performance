@@ -745,7 +745,7 @@ serverFiles:
         metrics_path: /api/monitoring/metrics
         static_configs:
           - targets: 
-              - <sonarqube-pod-ip>:8000 #Use describe ingress/svc to see the ip address of the instance SonarQube is running on. Localhost will not work.
+              - 10.0.1.11:8000 #Use describe ingress/svc to see the ip address of the instance SonarQube is running on. Localhost will not work.
       
       - job_name: 'monitoring-web'
         scrape_interval: 30s #Scrape Metrics from SonarQube Web Api
@@ -753,7 +753,7 @@ serverFiles:
         metrics_path: /api/monitoring/metrics
         static_configs:
           - targets: 
-              -  <sonarqube-pod-ip>:8001
+              -  10.0.1.11:8001
 
       # A scrape configuration for running Prometheus on a Kubernetes cluster.
       # This uses separate scrape configs for cluster components (i.e. API server, node)
