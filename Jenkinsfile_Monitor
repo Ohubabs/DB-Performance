@@ -3,12 +3,12 @@ pipeline{
         label 'kubernetes'
   }
     stages{
-        //stage('Provision apm-issuer to acquire a certificate to secure the prometheus and grafana websites'){
-            //steps{
-                //sh "echo cloning code"
-                //sh "kubectl apply -f apm-issuer.yml"
-            //}
-        //}
+        stage('Provision apm-issuer to acquire a certificate to secure the prometheus and grafana websites'){
+            steps{
+                sh "echo cloning code"
+                sh "kubectl apply -f apm-issuer.yml"
+            }
+        }
         stage('Deploy Prometheus and Grafana for Application Performance Monitoring'){
             steps{
               withCredentials([aws(accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_cred', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY')]) {
