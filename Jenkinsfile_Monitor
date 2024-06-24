@@ -3,11 +3,10 @@ pipeline{
         label 'kubernetes'
   }
     stages{
-        //stage('Clone Code'){
+        //stage('Provision apm-issuer to acquire a certificate to secure the prometheus and grafana websites'){
             //steps{
                 //sh "echo cloning code"
-                //sh "echo clone code complete"
-                //https://github.com/Ohubabs/DB-Monitor.git'
+                //sh "kubectl apply -f apm-issuer.yml"
             //}
         //}
         stage('Deploy Prometheus and Grafana for Application Performance Monitoring'){
