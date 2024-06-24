@@ -13,7 +13,7 @@ pipeline{
         stage('Deploy Prometheus and Grafana for Application Performance Monitoring'){
             steps{
               withCredentials([aws(accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: 'aws_cred', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY')]) {
-                sh "echo 'Deploy dbapm.devopsnetwork.net and dbvisual.devopsnetwork.net for APM with Prometheus and Grafana'"
+                sh "echo 'Deploy prometheus.devopsnetwork.net and grafana.devopsnetwork.net for APM with Prometheus and Grafana'"
                 sh "terraform init"
                 sh "terraform validate"
                 sh "terraform plan"
