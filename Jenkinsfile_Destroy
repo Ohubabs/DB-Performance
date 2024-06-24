@@ -1,6 +1,6 @@
 pipeline{
     agent { 
-        label 'terraform'
+        label 'kubernetes'
   }
     stages{
         stage('Destroy Prometheus and Grafana Websites for APM'){
