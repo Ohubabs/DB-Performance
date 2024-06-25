@@ -1,4 +1,4 @@
-/*resource "kubernetes_ingress_v1" "apm" {
+resource "kubernetes_ingress_v1" "apm" {
   wait_for_load_balancer = true
   metadata {
     name = "apm"
@@ -46,4 +46,4 @@
       }
     }
   }
-}*/
+}
