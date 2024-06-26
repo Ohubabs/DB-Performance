@@ -7,7 +7,7 @@ spec:
     # The ACME server URL
     server: https://acme-v02.api.letsencrypt.org/directory
     # Email address used for ACME registration
-    email: <your-email>
+    email: obakinolugbade@gmail.com
     # Name of a secret used to store the ACME account private key
     privateKeySecretRef:
       name: monitor-priv
@@ -15,17 +15,51 @@ spec:
     solvers:
     - selector:
         dnsNames:
-          - "<aws-registered-domainname>"
+          - "prometheus.devopsnetwork.net"
+          - "grafana.devopsnetwork.net"
+          - "logs.devopsnetwork.net"
       dns01:
         route53:
           region: us-west-2
           # The AWS access key ID can be specified using the literal accessKeyID parameter
           # or retrieved from a secret using the accessKeyIDSecretRef
           # If using accessKeyID, omit the accessKeyIDSecretRef parameter and vice-versa
-          hostedZoneID: <aws-hosted-zone-id>
+          hostedZoneID: Z00777903RWLGIFSJQB59
           accessKeyIDSecretRef:
             name: goku
             key: kamehameha
           secretAccessKeySecretRef:
             name: goku
             key: spiritbomb
+
+#apiVersion: cert-manager.io/v1
+#kind: ClusterIssuer
+#metadata:
+#  name: monitor-issuer
+#spec:
+#  acme:
+#    # The ACME server URL
+#    server: https://acme-v02.api.letsencrypt.org/directory
+#    # Email address used for ACME registration
+#    email: <your-email>
+#    # Name of a secret used to store the ACME account private key
+#    privateKeySecretRef:
+#      name: monitor-priv
+#    # Enable the HTTP-01 challenge provider
+#    solvers:
+#    - selector:
+#        dnsNames:
+#          - "<aws-registered-domainname>"
+#      dns01:
+#        route53:
+#          region: us-west-2
+#          # The AWS access key ID can be specified using the literal accessKeyID parameter
+#          # or retrieved from a secret using the accessKeyIDSecretRef
+#          # If using accessKeyID, omit the accessKeyIDSecretRef parameter and vice-versa
+#          hostedZoneID: <aws-hosted-zone-id>
+#          accessKeyIDSecretRef:
+#            name: goku
+#            key: kamehameha
+#          secretAccessKeySecretRef:
+#            name: goku
+#            key: spiritbomb
