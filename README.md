@@ -16,7 +16,7 @@ For this project, you are to setup a pipeline to deploy Cluster/Application Moni
 
 ![image](https://github.com/user-attachments/assets/ed435206-da9f-4b69-82c2-6b89448340ea)
 
-### Step 3: Click “Build now” to run your pipeline with Maven, SonarQube, and Docker to Build, Test, Containerize and Push your Java Springboot Web app to DockerHub.
+### Step 3: Click “Build now” to deploy Cluster/Application Monitoring tools: Prometheus, and Grafana into the DB cluster .
 
 ![Screenshot 2024-06-24 at 4 06 53 PM](https://github.com/user-attachments/assets/a92ec669-546d-4f61-ad09-fd5af9e18552)
 
