@@ -12,7 +12,10 @@ For this project, you are to setup a pipeline to deploy Cluster/Application Moni
 
 ![Screenshot 2024-06-24 at 2 59 58 PM](https://github.com/user-attachments/assets/71e7db9b-444d-4925-9c7c-473c577cb3ed)
 
-### Step 2: Go to “Configuration”, Select “Poll SCM” and Enter the details for your GitHub repo & Jenkinsfile or copy and paste the Jenkinsfile in this repo.
+### Step 2: Go to “Configuration”, Select “Poll SCM” and Enter the details for your GitHub repo & Jenkinsfile or copy and paste the Jenkinsfile_Monitor in this repo.
+
+![image](https://github.com/user-attachments/assets/ed435206-da9f-4b69-82c2-6b89448340ea)
+
 ### Step 3: Click “Build now” to run your pipeline with Maven, SonarQube, and Docker to Build, Test, Containerize and Push your Java Springboot Web app to DockerHub.
 
 ![Screenshot 2024-06-24 at 4 06 53 PM](https://github.com/user-attachments/assets/a92ec669-546d-4f61-ad09-fd5af9e18552)
