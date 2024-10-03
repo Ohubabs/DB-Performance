@@ -26,9 +26,9 @@ For this project, you are to setup a pipeline to deploy Cluster/Application Moni
 
 ![Screenshot 2024-06-24 at 3 55 33 PM](https://github.com/user-attachments/assets/5106bef6-7573-4caa-9e7b-981bb65becd6)
 
-### Step 4: Once your Prometheus and Grafana sites are live, log into Grafana, set Prometheus as a data source, and gain performance stats from apps running in the cluster e.g Jenkins, SonarQube, etc...
-
 ![Screenshot 2024-06-24 at 4 19 02 PM](https://github.com/user-attachments/assets/5ccbf42a-a7bb-48c7-aeff-ea9bda5e6c48)
+
+### Step 4: Once your Prometheus and Grafana sites are live, log into Grafana, set Prometheus as a data source, and gain performance stats from apps running in the cluster e.g Jenkins, SonarQube, etc...
 
 ![Screenshot 2024-06-24 at 7 26 34 PM](https://github.com/user-attachments/assets/56d983e4-b8b0-43bc-8df5-f4f92f0f4160)
 
