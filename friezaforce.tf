@@ -13,7 +13,7 @@ resource "kubernetes_secret_v1" "graf-auth" {
   type = "Opaque"
 }
 
-resource "kubernetes_secret_v1" "elastic-auth" {
+/*resource "kubernetes_secret_v1" "elastic-auth" {
   metadata {
     name = "food-1"
     namespace = "apm"
@@ -25,4 +25,4 @@ resource "kubernetes_secret_v1" "elastic-auth" {
   }
 
   type = "Opaque"
-}
+}*/
