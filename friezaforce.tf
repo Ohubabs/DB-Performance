@@ -15,8 +15,8 @@ resource "kubernetes_secret_v1" "graf-auth" {
 
 /*resource "kubernetes_secret_v1" "elastic-auth" {
   metadata {
-    name = "food-1"
-    namespace = "apm"
+    name = "namek"
+    namespace = "monitor"
   }
 
   data = {
