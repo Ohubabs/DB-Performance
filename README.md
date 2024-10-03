@@ -4,11 +4,11 @@
 
 ## Project Objective
 
-For this project, you are to setup a pipeline to deploy Cluster/Application Monitoring tools: Prometheus, Grafana, ElasticSearch, Logstash, and Kibana into the DB cluster using Terraform with the Kubernetes and Helm Providers.
+For this project, you are to setup a pipeline to deploy Cluster/Application Monitoring tools: Prometheus, and Grafana into the DB cluster using Terraform with the Kubernetes and Helm Providers.
 
 ## Monitoring Pipeline 7
 
-### Step 1: Go to New Item” from the Dashboard, select “Pipeline”, name it “Monitor”.
+### Step 1: Go to New Item” from the Dashboard, select “Pipeline”, name it “Prometheus_Grafana”.
 
 ![Screenshot 2024-06-24 at 2 59 58 PM](https://github.com/user-attachments/assets/71e7db9b-444d-4925-9c7c-473c577cb3ed)
 
