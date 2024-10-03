@@ -36,8 +36,8 @@ resource "helm_release" "grafana" {
   ]
 }
 
-resource "helm_release" "kibana-14" {
-  name       = "kibana-14"
+resource "helm_release" "kibana" {
+  name       = "kibana"
   namespace = "monitor"
   repository = "https://helm.elastic.co"
   chart      = "kibana"
