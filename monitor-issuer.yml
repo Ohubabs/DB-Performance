@@ -16,6 +16,7 @@ spec:
     - selector:
         dnsNames:
           - "<aws-registered-domainname>"
+          - "<aws-registered-domainname>"
       dns01:
         route53:
           region: us-west-2
