@@ -57,14 +57,9 @@ For this project, you are to setup a pipeline to deploy Cluster/Application Moni
 
 ![Screenshot 2024-06-24 at 7 31 06 PM](https://github.com/user-attachments/assets/f3b5fc60-366d-4727-82fa-b229329ae5ef)
 
-![Screenshot 2024-06-24 at 7 31 55 PM](https://github.com/user-attachments/assets/0fd902d4-8ce6-438b-81a0-431cd4e6674a)
-
 ![Screenshot 2024-06-24 at 7 32 06 PM](https://github.com/user-attachments/assets/bdf6fc8b-3899-48cd-9247-dc0b6aa23b34)
 
 ![Screenshot 2024-06-24 at 7 32 47 PM](https://github.com/user-attachments/assets/dce58e49-f562-4d5b-93f4-caf8f18ac085)
-
-![Screenshot 2024-06-24 at 7 32 54 PM](https://github.com/user-attachments/assets/dd502411-de45-4e25-ac82-6374476f589f)
-
 
 ![Screenshot 2024-06-25 at 6 40 52 PM](https://github.com/user-attachments/assets/6b9096d6-ef0d-4a9b-a8e4-4598702e86d7)
 
