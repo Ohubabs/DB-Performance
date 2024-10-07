@@ -6,6 +6,17 @@
 
 For this project, you are to setup a pipeline to deploy Cluster/Application Monitoring tools: Prometheus, and Grafana into the DB cluster using Terraform with the Kubernetes and Helm Providers.
 
+## Prerequisites
+
+- Metrics Enabled in the values files for the following applications to allow Prometheus to track their performance:
+  - Jenkins (ref: https://github.com/Ohubabs/DB-Pipeline.git)
+  - SonarQube (ref: https://github.com/Ohubabs/DB-Sonarqube.git)
+  - MongoDB (ref: https://github.com/Ohubabs/DB-Mongo.git)
+  - Nginx-Ingress (ref: https://github.com/Ohubabs/DB-Pipeline.git)
+  - Prometheus 
+  - Grafana 
+  
+
 ## Monitoring Pipeline 7
 
 ### Step 1: Go to New Item” from the Dashboard, select “Pipeline”, name it “Prometheus_Grafana”.
