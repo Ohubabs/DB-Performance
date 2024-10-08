@@ -31,6 +31,8 @@ For this project, you are to setup a pipeline to deploy Cluster/Application Moni
 
 - Edit the var.tf file with your Grafana credentials to be uploaded into the secret in prince.tf.
 
+![Screenshot 2024-10-08 at 12 41 42 PM](https://github.com/user-attachments/assets/047c20fa-37e6-42e5-8d1f-d664b53c37a9)
+
 ![Screenshot 2024-10-08 at 12 35 09 PM](https://github.com/user-attachments/assets/0c3ef7c4-2d61-44b7-b89f-d96ac522342c)
 
 - If you change the name of the secret, it must be edited as well in the graf-values.yml file
