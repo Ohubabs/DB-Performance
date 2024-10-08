@@ -20,7 +20,7 @@ resource "kubernetes_storage_class" "prom-sc2" { #storage for alert manager
   parameters = {
     type = "gp3"
     iops = 3000
-    #encrypted = "true"
+    encrypted = "true"
   }
 }
 
@@ -33,7 +33,7 @@ resource "kubernetes_storage_class" "graf-sc" {
   parameters = {
     type = "gp3"
     iops = 3000
-    #encrypted = "true"
+    encrypted = "true"
   }
 }
 
