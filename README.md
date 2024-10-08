@@ -27,6 +27,17 @@ For this project, you are to setup a pipeline to deploy Cluster/Application Moni
 
 ![image](https://github.com/user-attachments/assets/ed435206-da9f-4b69-82c2-6b89448340ea)
 
+#### Notes :-
+
+- Edit the var.tf file with your Grafana credentials to be uploaded into the secret in prince.tf.
+
+![Screenshot 2024-10-08 at 12 35 09 PM](https://github.com/user-attachments/assets/0c3ef7c4-2d61-44b7-b89f-d96ac522342c)
+
+- If you change the name of the secret, it must be edited as well in the graf-values.yml file
+
+![image](https://github.com/user-attachments/assets/2748ca89-fda6-42f9-9e9f-c68f6b0f3979)
+
+
 ### Step 3: Click “Build now” to deploy Cluster/Application Monitoring tools: Prometheus, and Grafana into the DB cluster .
 
 ![Screenshot 2024-06-24 at 4 06 53 PM](https://github.com/user-attachments/assets/a92ec669-546d-4f61-ad09-fd5af9e18552)
